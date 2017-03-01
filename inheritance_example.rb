@@ -6,6 +6,10 @@ module Movable
   def turn(new_direction)
     @direction = new_direction
   end
+
+  def ring_bell
+    p "This is the module ring bell method"
+  end
 end
 
 class Car
