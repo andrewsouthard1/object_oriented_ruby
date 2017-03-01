@@ -50,3 +50,8 @@ bike1 = Bike.new(type: "hybrid", weight: 20)
 p bike1.speed
 bike1.accelerate
 p bike1.speed
+
+p car1.speed
+car1.accelerate
+p car1.speed
+
