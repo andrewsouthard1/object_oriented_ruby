@@ -1,7 +1,7 @@
 require './employee.rb'
 require_relative './email_reportable.rb'
 
-class Manager < Employee
+class Manager < EmployeeLedger::Employee
   attr_reader :employees
   include EmailReportable
 

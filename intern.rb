@@ -1,7 +1,7 @@
 require './employee.rb'
 require './email_reportable.rb'
 
-class Intern < Employee
+class Intern < EmployeeLedger::Employee
   include EmailReportable
 end
 
